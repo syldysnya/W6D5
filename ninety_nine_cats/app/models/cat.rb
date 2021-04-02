@@ -34,4 +34,4 @@ class Cat < ApplicationRecord
 
 end
 
-# k = Cat.new(name: 'Kat', sex: 'M', color: 'orange', birth_date: 2015/01/20, description: 'namsjhdkehe')
+# k = Cat.new(name: 'Kat', sex: 'M', color: 'orange', birth_date: '2015/01/20', description: 'namsjhdkehe')

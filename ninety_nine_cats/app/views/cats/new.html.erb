@@ -1,0 +1,42 @@
+<h1>Add New Cat</h1>
+
+
+<form action="<%= new_cat_url %>" method="get">
+    <label for="cat_name">Name: </label>
+    <input type="text" name="cat[name]" id="cat_name">
+
+    <br>
+    <label for="cat_sex">Sex: </label>
+    <input type="radio" id= "male" name="gender" value= "M">
+    <label for="male">Male</label>
+    <input type="radio" id= "female" name="gender" value= "F">
+    <label for="female">Female</label>
+
+    <br>
+
+    <label for="cat_color">Color</label>
+    <input type="dropdown">
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <#%= render 'form', action: 'new', cat: @cat%> -->
