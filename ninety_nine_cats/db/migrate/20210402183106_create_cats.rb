@@ -7,7 +7,6 @@ class CreateCats < ActiveRecord::Migration[5.2]
       t.string :sex, null: false, limit: 1
       t.text :description, null: false
 
-
       t.timestamps
 
     end
